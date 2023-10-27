@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import Form1 from "../components/Form1";
+import Household from "components/Household";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <br />
         <h1 className="text-center">Add Insurance</h1>
         <Form1 />
+        <Household />
       </main>
     </>
   );
